@@ -21,7 +21,6 @@ subprojects {
 
     dependencies {
         compileOnly("org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
-        compileOnly(fileTree(file("../lib")))
         compileOnly("com.oop.inteliframework:commons:1.0")
 
         compileOnly("org.projectlombok:lombok:1.18.8")
