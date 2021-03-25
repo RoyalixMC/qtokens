@@ -7,6 +7,7 @@ import dev.royalix.qtokens.api.util.data.SerializedData;
 
 /**
  * Class for handling tool module
+ * This class when implemented must have an empty constructor
  */
 public interface ToolModule {
     /**
