@@ -10,8 +10,7 @@ import java.util.Set;
 public interface ToolsInventory {
 
     /**
-     * Get all slots where tool is found
-     * @return tools
+     * Get tools in the users inventory
      */
     Set<Tool> getTools();
 

@@ -14,7 +14,6 @@ public interface Tool extends Hookable {
 
     /**
      * Get who is the holder of this tool
-     * @return Player
      */
     Optional<Player> getHolder();
 
@@ -33,7 +32,6 @@ public interface Tool extends Hookable {
      * Get module by type
      * @param moduleType the class of the T
      * @param <T> extends ToolModule
-     * @return ToolModule
      */
     <T extends ToolModule> Optional<T> getModule(Class<T> moduleType);
 }

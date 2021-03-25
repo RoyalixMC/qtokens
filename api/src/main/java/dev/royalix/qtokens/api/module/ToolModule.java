@@ -18,7 +18,6 @@ public interface ToolModule {
 
     /**
      * Returns tool that this module represents
-     * @return Tool
      */
     Tool getTool();
 
@@ -44,7 +43,6 @@ public interface ToolModule {
 
     /**
      * Get instance of the plugin
-     * @return instance of the plugin
      */
     default QPickaxes getPlugin() {
         return QPickaxesAPI.getPlugin();
