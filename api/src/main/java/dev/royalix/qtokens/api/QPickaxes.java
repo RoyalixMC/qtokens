@@ -15,13 +15,11 @@ public interface QPickaxes {
 
     /**
      * Get tool module registry
-     * @return ModuleRegistry
      */
     ModuleRegistry getModuleRegistry();
 
     /**
      * Get currency registry
-     * @return currency registry
      */
     CurrencyRegistry getCurrencyRegistry();
 
