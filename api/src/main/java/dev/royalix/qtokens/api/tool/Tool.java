@@ -1,5 +1,6 @@
 package dev.royalix.qtokens.api.tool;
 
+import dev.royalix.qtokens.api.hook.Hookable;
 import dev.royalix.qtokens.api.module.ToolModule;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -9,7 +10,7 @@ import java.util.Optional;
 /**
  * Class that manages the item representing this tool
  */
-public interface Tool {
+public interface Tool extends Hookable {
 
     /**
      * Get who is the holder of this tool
