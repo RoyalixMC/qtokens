@@ -1,0 +1,26 @@
+# <--------------->
+# Configuration of enchants module for qPickaxes by Royalix.
+# <--------------->
+
+# Efficiency
+efficiency:
+  # State of the enchant
+  state: "enabled"
+
+  # Display of the enchant inside lore
+  display: "Efficiency %enchant_level%"
+
+  # Configure enchant levels
+  levels:
+    # Last level of the enchant
+    limit: 100
+
+    # Chance of it happening
+    # Min is: 0 and max is 1
+    chance: "%enchant_level% * 0.005156"
+
+    # You can use mathematical expressions here
+    # Format: [Currency Name]=cost
+    costs:
+      - "[Money]%enchant_level% * 100"
+      - "[Tokens]%enchant_level% * 0.25"

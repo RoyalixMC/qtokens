@@ -1,0 +1,34 @@
+# <--------------->
+# Configuration of levels module for qPickaxes by Royalix.
+# <--------------->
+
+# Max amount of levels
+levels: 100
+
+# Display of the level
+level-display:
+  - "&8&l-------------------"
+  - "&e&l* &7Level: &e%tool_level%"
+  - "&7 (( &e%blocks_till_next_level% blocks till next level &7))"
+  - "&7&l-------------------"
+
+# How much blocks to level up
+# What ever the expression will return the result will be rounded
+blocks-to-level: "100 * 10.5"
+
+# What happens at level
+level:
+  # Commands that would execute on all levels
+  actions:
+    - "[Command] crates give %player% SPECIAL"
+
+  # Specific actions
+  specific-actions:
+    # These actions would run every 500 levels
+    "every[500]":
+      - "[Command] crates give %player% SPECIAL!"
+
+    # These actions would run only once when 200 level is reached
+    "200":
+      - "[Command] crates give %player% moooooo"
+
