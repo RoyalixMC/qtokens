@@ -22,14 +22,4 @@ tools-config:
 
   # Display order of modules in tools
   # Separate each module by with a comma (,)
-  display-order: "[enchants], [levels], [stats]"
-
-# States of the modules
-modules:
-  enchants: true
-  levels: true
-
-# Database connection
-database:
-  type: "sqlite"
-  name: "data"
+  display-order: "enchants, levels, stats"
