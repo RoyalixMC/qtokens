@@ -1,5 +1,6 @@
 package org.royalix.qtokens.api.currency;
 
+import lombok.NonNull;
 import org.royalix.qtokens.api.util.NumberWrapper;
 
 import java.util.UUID;
@@ -9,8 +10,8 @@ public interface CurrencyProvider {
     /**
      * Get name of the provider
      * Used in configurations
-     * @return name of the provider
      */
+    @NonNull
     String getName();
 
     /**
