@@ -1,4 +1,4 @@
-package org.royalix.qtokens.plugin.config.main;
+package org.royalix.qtokens.plugin.config.main.tool;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
