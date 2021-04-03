@@ -3,7 +3,7 @@
 # Speed, Quality, Kebabs all in one!
 # <--------------->
 
-tools-config:
+tools:
   # Max amount of tools in a single inventory that a player can have?
   # If the player will receive another tool while he has reached the limit, it won't be picked up
   max-tools: 1
@@ -13,13 +13,17 @@ tools-config:
   # If off, each player will have own enchants, stats, etc. on the same tool
   global-tools: false
 
-  # Preserve custom lore?
-  # Note that this will only work on newly created tools
-  preserve-lore: false
-
   # Are players allowed to drop tools?
   droppable: false
 
   # Display order of modules in tools
   # Separate each module by with a comma (,)
-  display-order: "enchants, levels, stats"
+  display-order: "lore, enchants, levels, stats"
+
+
+threads:
+  # Threads for monitoring pickaxes
+  pickaxe-monitor-threads: 2
+
+  # Threads for misc usage
+  misc-usage-threads: 1
