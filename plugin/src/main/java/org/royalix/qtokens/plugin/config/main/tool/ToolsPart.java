@@ -1,11 +1,13 @@
-package org.royalix.qtokens.plugin.config.main;
+package org.royalix.qtokens.plugin.config.main.tool;
 
 import com.oop.inteliframework.config.property.Configurable;
 import com.oop.inteliframework.config.property.annotations.Comment;
 import com.oop.inteliframework.config.property.annotations.Named;
 import com.oop.inteliframework.config.property.property.PrimitiveProperty;
 import com.oop.inteliframework.config.property.property.custom.ObjectProperty;
+import lombok.Getter;
 
+@Getter
 public class ToolsPart implements Configurable {
     @Named("max-tools")
     @Comment({
