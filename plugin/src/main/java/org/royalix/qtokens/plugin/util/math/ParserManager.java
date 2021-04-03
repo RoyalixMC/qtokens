@@ -1,4 +1,4 @@
-package org.royalix.qtokens.plugin.util.parser;
+package org.royalix.qtokens.plugin.util.math;
 
 /**
  * The Class ParserManager.

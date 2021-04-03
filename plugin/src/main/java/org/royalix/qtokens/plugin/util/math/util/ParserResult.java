@@ -1,6 +1,6 @@
-package org.royalix.qtokens.plugin.util.parser.util;
+package org.royalix.qtokens.plugin.util.math.util;
 
-import org.royalix.qtokens.plugin.util.parser.function.Complex;
+import org.royalix.qtokens.plugin.util.math.function.Complex;
 
 /**
  * The Class ParserResult.

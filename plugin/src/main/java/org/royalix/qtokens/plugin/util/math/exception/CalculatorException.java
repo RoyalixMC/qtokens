@@ -1,4 +1,4 @@
-package org.royalix.qtokens.plugin.util.parser.exception;
+package org.royalix.qtokens.plugin.util.math.exception;
 
 /**
  * The Class CalculatorException.

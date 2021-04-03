@@ -1,12 +1,12 @@
-package org.royalix.qtokens.plugin.util.parser;
+package org.royalix.qtokens.plugin.util.math;
 
-import org.royalix.qtokens.plugin.util.parser.exception.CalculatorException;
-import org.royalix.qtokens.plugin.util.parser.function.Complex;
-import org.royalix.qtokens.plugin.util.parser.function.ComplexFunction;
-import org.royalix.qtokens.plugin.util.parser.function.FunctionX;
-import org.royalix.qtokens.plugin.util.parser.function.FunctionXs;
-import org.royalix.qtokens.plugin.util.parser.util.ParserResult;
-import org.royalix.qtokens.plugin.util.parser.util.Point;
+import org.royalix.qtokens.plugin.util.math.exception.CalculatorException;
+import org.royalix.qtokens.plugin.util.math.function.Complex;
+import org.royalix.qtokens.plugin.util.math.function.ComplexFunction;
+import org.royalix.qtokens.plugin.util.math.function.FunctionX;
+import org.royalix.qtokens.plugin.util.math.function.FunctionXs;
+import org.royalix.qtokens.plugin.util.math.util.ParserResult;
+import org.royalix.qtokens.plugin.util.math.util.Point;
 
 import java.util.ArrayList;
 import java.util.Arrays;

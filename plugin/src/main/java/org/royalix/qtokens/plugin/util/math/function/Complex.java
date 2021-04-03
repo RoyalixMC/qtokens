@@ -1,6 +1,6 @@
-package org.royalix.qtokens.plugin.util.parser.function;
+package org.royalix.qtokens.plugin.util.math.function;
 
-import org.royalix.qtokens.plugin.util.parser.exception.CalculatorException;
+import org.royalix.qtokens.plugin.util.math.exception.CalculatorException;
 
 /**
  * The Class Complex.

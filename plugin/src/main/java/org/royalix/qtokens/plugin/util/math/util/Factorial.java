@@ -1,6 +1,6 @@
-package org.royalix.qtokens.plugin.util.parser.util;
+package org.royalix.qtokens.plugin.util.math.util;
 
-import org.royalix.qtokens.plugin.util.parser.exception.CalculatorException;
+import org.royalix.qtokens.plugin.util.math.exception.CalculatorException;
 
 /**
  * The Class Factorial.
