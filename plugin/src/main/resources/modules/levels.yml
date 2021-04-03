@@ -3,10 +3,10 @@
 # <--------------->
 
 # Max amount of levels
-levels: 100
+max-level: 100
 
 # Display of the level
-level-display:
+display:
   - "&8&l-------------------"
   - "&e&l* &7Level: &e%tool_level%"
   - "&7 (( &e%blocks_till_next_level% blocks till next level &7))"
