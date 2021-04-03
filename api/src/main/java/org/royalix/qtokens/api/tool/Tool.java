@@ -18,11 +18,6 @@ public interface Tool extends Hookable {
     Optional<Player> getHolder();
 
     /**
-     * Get current ItemStack that represents this tool
-     */
-    ItemStack getItemStack();
-
-    /**
      * Update the tool in player's inventory
      * @param force if the item should be updated forcefully
      */
